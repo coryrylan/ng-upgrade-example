@@ -1,0 +1,13 @@
+<h1>Employees</h1>
+
+<h3>
+  Selected Employee:
+  {{$ctrl.selectedEmployee.name}}
+</h3>
+
+<br>
+
+<app-employee-list 
+  employees="$ctrl.employees"
+  select="$ctrl.setSelectedEmployee(event)">
+</app-employee-list>

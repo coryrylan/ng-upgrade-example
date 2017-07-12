@@ -1,0 +1,10 @@
+<input type="text" ng-model="$ctrl.query">
+
+<ul>
+  <li ng-repeat="employee in $ctrl.employees | filter: $ctrl.query">
+    Name: {{employee.name}} <br>
+    Height: {{employee.height}} <br>
+
+    <button ng-click="$ctrl.selectEmployee(employee)">Select</button>
+  </li>
+</ul>
