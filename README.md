@@ -1,4 +1,4 @@
-# Minmal Ng1 TypeScript ngUpgrade to Ng2+
+# Minimal Ng1 TypeScript ngUpgrade to Ng2+
 
 ### Resources
 
